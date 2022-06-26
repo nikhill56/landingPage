@@ -1,0 +1,36 @@
+.blackgradient{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 18vw;
+    height: 18vw;
+    position: absolute;
+    transform: translateY(-250px);
+}
+.nftName{
+    transition: all 0.3s;
+    justify-content: flex-end;
+    transform: translateY(-32vw);
+}
+/* .nftName:hover{
+    justify-content: center;
+} */
+
+.nftNameContainer {
+    transition: all 0.3s ease-in-out;
+    height: 40px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.4), rgba(0,0,0,0));
+    width: 100%;
+    margin-bottom: 10px;
+}
+.nftNameContainer:hover{
+    /* transform: translateY(-3vw); */
+    height: 60%;
+    /* animation: nftTextAnimation 1s 1; */
+}
+
+@keyframes nftTextAnimation{
+    0%{
+        height: auto;
+    }100%{
+        height: 50%;
+    }
+}

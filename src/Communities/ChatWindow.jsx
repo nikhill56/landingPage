@@ -87,7 +87,7 @@ export class ChatWindow extends Component {
               </div>
             </div>
             <div>
-              <select name="options" style={{width: "200px", padding: "10px", backgroundColor: "#701BE0", border: "none", borderRadius: "10px", color: "white", fontSize: "15px", fontWeight: "600", cursor: "pointer" }}>
+              <select name="options" style={{width: "200px", padding: "10px", backgroundColor: "#701BE0", border: "none", borderRadius: "10px", color: "white", fontSize: "15px", fontWeight: "400", cursor: "pointer" }}>
                 <option value="common" style={{backgroundColor: "#454242"}}>Common</option>
                 <option value="citizens" style={{backgroundColor: "#454242"}}>Citizens</option>
                 <option value="announcements" style={{backgroundColor: "#454242"}}>Announcements</option>

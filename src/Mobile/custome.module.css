@@ -1,0 +1,14 @@
+.blackgradient{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 32vw;
+    height: 32vw;
+    position: absolute;
+    transform: translateY(-122px);
+}
+.nftName{
+    transition: all 0.3s;
+    justify-content: flex-end;
+}
+.nftName :hover{
+    justify-content: center;
+}
